@@ -1,0 +1,26 @@
+.border1{
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+
+}
+.header{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(250, 133, 133);
+
+}
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    background-color: bisque;
+}
+.img12:hover{
+    transform: scale(1.1);
+    transition: 1.2s;
+}
