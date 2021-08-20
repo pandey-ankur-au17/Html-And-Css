@@ -1,0 +1,81 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+  
+  body {
+
+    background-position: top;
+  }
+  
+  #cont {
+    max-width: 80%;
+    margin: auto;
+    display: grid;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    grid-template-columns: auto auto auto auto;
+  }
+  
+  .box {
+    border: 5px solid rgb(0, 0, 0);
+    width: 100px;
+    margin: 40px;
+    text-align: center;
+    font-size: 25px;
+    padding: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .box:hover{
+      background-color: rgb(243, 7, 164);
+      transform: rotate(360deg) scale(1.5);
+      transition-duration: 3s;
+      box-shadow: 19px 20px 41px -5px rgba(0,0,0,0.7);
+      transition-property: all;
+
+
+  }
+
+  .box1{
+      background-color: rgb(80, 80, 80);
+  }
+
+  .box2{
+      background-color: rgb(181, 181, 209);
+  }
+  .box3{
+      background-color: rgb(197, 206, 206);
+  }
+  .box4{
+      background-color: rgb(55, 115, 226);
+  }
+  .box5{
+      background-color: rgb(59, 134, 63);
+
+  }
+  .box6{
+      background-color: rgb(252, 2, 44);
+
+  }
+  .box7{
+      background-color: rgb(218, 78, 14);
+
+  }
+  .box8{
+      background-color: rgb(0, 183, 255);
+
+  }
+  .box9{
+      background-color: rgb(255, 132, 17);
+  }
+  .box10{
+      background-color: rgb(37, 177, 2);
+  }
+  .box11{
+      background-color: rgb(247, 252, 0);
+  }
+  .box12{
+      background-color: rgb(255, 247, 247);
+  }
