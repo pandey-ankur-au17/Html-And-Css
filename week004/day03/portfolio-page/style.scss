@@ -1,0 +1,29 @@
+.bgi{
+    background-image: url("https://images.pexels.com/photos/270360/pexels-photo-270360.jpeg");
+}
+
+
+.projects{
+    .card{
+
+
+        &:hover{
+            box-shadow: 0 1rem 3rem;
+        }
+    }
+}
+
+
+.hero{
+    height: 100vh;
+    .container{
+        padding-top: 100px !important;
+    }
+}
+
+.footerchild{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
