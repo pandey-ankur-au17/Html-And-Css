@@ -1,0 +1,74 @@
+.container{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.mainbox{
+    height: 500px;
+    width: 600px;
+    background-color: grey;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+.musicpicbox{
+    height: 150px;
+    width: 150px;
+    padding-left: 110px;
+}
+.main2{
+    height: 240px;
+    padding-top: 20px;
+    padding-left: 120px;
+    color: white;
+
+}
+.musicplaybox{
+
+    display: flex;
+    border-top: 3px solid rgba(0, 0, 0, 0.712);
+    border-bottom: 3px solid rgba(121, 216, 44, 0.829);
+    border-radius: 0px 0px 20px 20px;
+
+
+}
+.span{
+    padding: 35px;
+    flex: start;
+    color: white;
+    padding-right: 150px;
+}
+
+.spanend{
+    padding:35px;
+    padding-left: 140px;
+    color: white;
+}
+.h4{
+    font-size: 25px;
+    margin: 10px;
+}
+.p{
+    font-size: 15px;
+    opacity: 70%;
+    margin: 10px;
+}
+.h6{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.playbutton1{
+    height: 40px;
+    width: 40px;
+    padding-top:20px;
+    padding-left: 20px;
+    
+}
+.playbutton{
+    display: inline-flex;
+    margin: 0px;
+}

@@ -1,0 +1,18 @@
+.container{
+    background-color: aliceblue;
+}
+
+.mainbox{
+    height: 150vh;
+}
+
+
+.card{
+    margin: 20px;
+    box-shadow: 12px 9px 16px 1px rgba(0,0,0,0.75);
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
